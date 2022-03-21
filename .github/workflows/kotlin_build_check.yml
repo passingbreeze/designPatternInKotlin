@@ -1,0 +1,12 @@
+name: kotlin_build_check_&_CI
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: fwilhe2/setup-kotlin@main
+      - run: kotlinc main.kt
+      - run: kotlin main.kts
