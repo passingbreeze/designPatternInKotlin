@@ -1,7 +1,7 @@
 name: kotlin_build_check_&_CI
 on:
   push:
-  workflow_dispatch:
+    branches: [ master ]
 jobs:
   build:
     runs-on: ubuntu-latest
