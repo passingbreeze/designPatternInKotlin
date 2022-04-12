@@ -167,4 +167,6 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# kotlin exe
+.kexe
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux,jetbrains+all
